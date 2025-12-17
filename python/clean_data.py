@@ -32,7 +32,7 @@ corrections_pays = {
 }
 
 df['pays'] = df['pays'].replace(corrections_pays)
-df['pays'] = df['pays'].str.title()
+df['pays'] = df['pays'].str.upper()
 
 # CANAL (accepter que Boutique ou Online)
 df['canal'] = df['canal'].str.strip().str.lower()
