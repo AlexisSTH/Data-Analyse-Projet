@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from pathlib import Path
 
 # Charger les données nettoyées
 df = pd.read_csv("data/data_nettoyee.csv")
