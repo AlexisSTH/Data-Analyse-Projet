@@ -59,7 +59,7 @@ df = df[filtre_quantite]
 print("\n Données après nettoyage: ")
 print(df.head())
 print(df.info())
-df.to_csv("data_nettoyee.csv", index=False)
+df.to_csv("data/data_nettoyee.csv", index=False)
 conn.close()
 
 print("\n Nettoyage terminé")

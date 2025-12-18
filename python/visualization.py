@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # Charger les données nettoyées
-df = pd.read_csv("data_nettoyee.csv")
+df = pd.read_csv("data/data_nettoyee.csv")
 
 # Convertir la date
 df['date_vente'] = pd.to_datetime(df['date_vente'])
